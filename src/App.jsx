@@ -23,10 +23,12 @@ function App() {
 
   function changeAnimal(obj) {
     setAnimal(obj);
+    setScore(0);
   }
 
   function changeDifficulty(obj) {
     setDifficulty(obj);
+    setScore(0);
   }
 
   return (
